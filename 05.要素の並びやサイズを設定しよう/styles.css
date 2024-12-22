@@ -1,12 +1,26 @@
 .humidity {
   margin-left: 30px;
+  background-color: #ADD8E6;
+  display: inline-block;
 }
 
 
 /* todayクラスに適用するスタイル */
-
+.today{
+  font-size: 20px;
+}
+.today-weather{
+  background-color: #FFC0CB;
+  height: 28px;
+}
 /* temperatureクラスに適用するスタイル */
-
+.temperature{
+  background-color: #FFD8B2;
+  display: inline-block;
+}
 /* humidityクラスに適用するスタイル */
 
 /* img要素に適用するスタイル */
+img{
+  display: block;
+}
